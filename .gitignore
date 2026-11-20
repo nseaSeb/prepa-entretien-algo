@@ -1,0 +1,36 @@
+# Dépendances et builds
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+
+# Journaux
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environnement
+.env
+.env.*
+
+# Artefacts de tests
+test-results/
+playwright-report/
+.nyc_output/
+
+# Système / éditeurs
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# Outils locaux
+.token-optimizer/
+
+# Claude Code (réglages locaux)
+.claude/settings.local.json
